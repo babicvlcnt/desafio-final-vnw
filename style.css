@@ -61,14 +61,15 @@ input {
 .man {
     width: 100vw;
 }
+/* Opção para o caso do código quebrar... ou ficar sujo (apagar o position de cada caixa e deixar com flexbox e position apenas na responsável)
 .box-text {
     display: flex;
-    width: 100vw;
     justify-content: space-evenly;
     align-items: center;
+    width: 100vw;
     position: relative;
     bottom: 50vh;
-}
+} */
 h1 {
     width: 33vw;
     height: 30vh;
@@ -76,21 +77,44 @@ h1 {
     color: #ffffff;
     font-size: 4em;
     line-height: 1em;
+    position: relative;
+    left: 14vw;
+    bottom: 49vh;
 }
-p{
+.tips {
     width: 30vw;
     height: 16vh;
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
     font-weight: 300;
     color: #ffffff;
+    position: relative;
+    left: 61vw;
+    bottom: 73vh;
 }
 .box-text-steps {
     background-color: #9767A9;
     width: 100vw;
     height: 61vh;
+    position: relative;
+    bottom: 47vh;
+    display: flex;
+    justify-content: space-around;
 }
 h2 {
+    border: solid 1px blue;
+    width: 55vw;
+    height: 28vh;
     font-family: 'Playfair Display', serif;
     color: #ffffff;
+    font-size: 3.3em;
+}
+.journey {
+    border: solid 1px greenyellow;
+    width: 38vw; 
+    height: 43vh;
+    font-family: 'Montserrat', serif;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 1.3em;
 }
