@@ -11,7 +11,7 @@ header {
     align-items: center;
     position: fixed;
 }
-.conteiner-icon {
+.container-icon {
     width: 8vw;
     position: relative;
     left: 4vw;
@@ -46,75 +46,76 @@ input {
     position: relative;
     left: 3.8vw;
     border: solid 4px #9767A9;
-    border-end-end-radius: 2em;
-    border-end-start-radius: 2em;
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
+    border-radius: 2em;
 }
-.conteiner-social-midia {
+.container-social-midia {
     width: 12vw;
     display: flex;
     justify-content: space-evenly;
     position: relative;
     left: 4vw;
 }
-.man {
-    width: 100vw;
+.container-background-image {
+    background-image: url(assets/foto\ 01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 140%;
+    height: 130%;
 }
-/* Opção para o caso do código quebrar... ou ficar sujo (apagar o position de cada caixa e deixar com flexbox e position apenas na responsável)
-.box-text {
+.contain-text {
+    width: 100%;
+    height: 117vh;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100vw;
-    position: relative;
-    bottom: 50vh;
-} */
+    justify-content: space-around;
+    align-items: flex-end;
+}
 h1 {
-    width: 33vw;
-    height: 30vh;
-    font-family: 'Playfair Display', serif;
+    width: 18%;
+    height: 52%;
     color: #ffffff;
+    font-family: 'Playfair Display', serif;
     font-size: 4em;
     line-height: 1em;
-    position: relative;
-    left: 14vw;
-    bottom: 49vh;
 }
 .tips {
-    width: 30vw;
-    height: 16vh;
+    width: 25%;
+    height: 45%;
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
     font-weight: 300;
-    color: #ffffff;
-    position: relative;
-    left: 61vw;
-    bottom: 73vh;
 }
-.box-text-steps {
+.container-journey {
     background-color: #9767A9;
-    width: 100vw;
+    width: 140%;
     height: 61vh;
-    position: relative;
-    bottom: 47vh;
+}
+.box-text {
+    padding-top: 6vh;
+    width: 130vw;
+    height: 61vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 h2 {
-    border: solid 1px blue;
-    width: 55vw;
+    width: 56vw;
     height: 28vh;
-    font-family: 'Playfair Display', serif;
     color: #ffffff;
+    font-family: 'Playfair Display', serif;
     font-size: 3.3em;
 }
 .journey {
-    border: solid 1px greenyellow;
-    width: 38vw; 
-    height: 43vh;
-    font-family: 'Montserrat', serif;
+    width: 39vw;
+    height: 40vh;
     color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 1.3em;
+    text-align: left;
+}
+.princess {
+    border: solid 4px blue;
+    background-image: url(assets/princess.png);
+    width: 50vw;
+    height: 100vh;
 }
