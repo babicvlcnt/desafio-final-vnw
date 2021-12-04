@@ -55,44 +55,54 @@ input {
     position: relative;
     left: 4vw;
 }
+main {
+    padding-top: 6em;
+}
 .container-background-image {
     background-image: url(assets/foto\ 01.png);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 140%;
-    height: 130%;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contain-text {
-    width: 100%;
-    height: 117vh;
+    border: solid 1px blue;
+    width: 90%;
+    height: 50vh;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 h1 {
-    width: 18%;
-    height: 52%;
+    border: solid 1px greenyellow;
+    width: 30%;
+    height: 20vh;
     color: #ffffff;
     font-family: 'Playfair Display', serif;
     font-size: 4em;
     line-height: 1em;
 }
 .tips {
-    width: 25%;
-    height: 45%;
+    border: solid 1px pink;
+    width: 35%;
+    height: 13vh;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+    font-size: 2.1em;
     font-weight: 300;
 }
 .container-journey {
     background-color: #9767A9;
-    width: 140%;
+    width: 100%;
     height: 61vh;
 }
 .box-text {
     padding-top: 6vh;
-    width: 130vw;
+    width: 100%;
     height: 61vh;
     display: flex;
     justify-content: center;
@@ -113,9 +123,23 @@ h2 {
     font-size: 1.3em;
     text-align: left;
 }
-.princess {
+.princess img {
     border: solid 4px blue;
-    background-image: url(assets/princess.png);
-    width: 50vw;
-    height: 100vh;
+    width: 35%;
+}
+.first-step-text {
+    border: solid 4 px green;
+    background-color: #9767A9;
+    width: 30vw;
+    height: 50vh;
+}
+.first-step {
+    color: #ffffff;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+}
+.first-step-paragraph{
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
 }
