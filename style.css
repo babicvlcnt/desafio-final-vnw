@@ -201,7 +201,7 @@ h3 {
     height: 49vh;
     position: relative;
     left: 5vw;
-    bottom: 30vh;   
+    bottom: 14vh;   
 }
 .mommy {
     position: relative;
@@ -225,7 +225,7 @@ h3 {
     height: 39vh;
     position: relative;
     left: 5vw;
-    bottom: 30vh;    
+    bottom: 17vh;    
 }
 .old {
     position: relative;
@@ -239,3 +239,66 @@ h3 {
     left: 5vw;
     bottom: 30vh;   
 }
+.container-image {
+    margin-left: 5%;
+    border: solid 1px pink;
+    width: 90%;
+    height: 90vh;
+    display: flex;
+}
+.box-four-pictures {
+    border: solid 1px blue;
+    width: 55vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.king {
+    width: 30%;
+    height: 100%;
+}
+.box-inside {
+    width: 30%;
+    height: 100%;
+}
+.beyonce {
+    width: 100%;
+    height: 49%;
+}
+.mbjordan {
+    margin-top: 1vh;
+    width: 100%;
+    height: 49%;
+}
+.smoking {
+    width: 30%;
+    height: 100%;
+}
+.box-three-pictures {
+    border: solid 1px brown;
+    width: 45vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.t-shirt-blue {
+    width: 45%;
+    height: 100%;   
+}
+.box-inside-2 {
+    border: solid 1px coral;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.a-girl {
+    width: 95%;
+    height: 35%;
+}
+.man-bearded {
+    width: 95%;
+    height: 63%;
+}
+.box
