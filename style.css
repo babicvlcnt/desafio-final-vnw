@@ -241,64 +241,86 @@ h3 {
 }
 .container-image {
     margin-left: 5%;
-    border: solid 1px pink;
-    width: 90%;
-    height: 90vh;
-    display: flex;
-}
-.box-four-pictures {
-    border: solid 1px blue;
-    width: 55vw;
-    height: 70vh;
-    display: flex;
-    justify-content: space-evenly;
-}
-.king {
-    width: 30%;
-    height: 100%;
-}
-.box-inside {
-    width: 30%;
-    height: 100%;
-}
-.beyonce {
     width: 100%;
-    height: 49%;
-}
-.mbjordan {
-    margin-top: 1vh;
-    width: 100%;
-    height: 49%;
-}
-.smoking {
-    width: 30%;
-    height: 100%;
-}
-.box-three-pictures {
-    border: solid 1px brown;
-    width: 45vw;
-    height: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
+
 }
-.t-shirt-blue {
-    width: 45%;
-    height: 100%;   
-}
-.box-inside-2 {
-    border: solid 1px coral;
-    width: 50%;
+.box-first-column {
+    margin-left: 1.5%;
+    width: 20%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.a-girl {
-    width: 95%;
-    height: 35%;
+.king {
+    width: 98%;
+    height: 73%;
 }
-.man-bearded {
-    width: 95%;
-    height: 63%;
+.gloria-maria {
+    width: 98%;
+    height: 25%;
 }
-.box
+.box-second-column {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.beyonce {
+    width: 93%;
+    height: 36%;
+}
+.michael-b-jordan {
+    width: 93%;
+    height: 35.5%;
+}
+.model {
+    width: 93%;
+    height: 25%;
+}
+.box-third-column {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.cigarette {
+    width: 95%;
+    height: 73%;
+}
+.spike-lee {
+    width: 90%;
+    height: 25%;
+}
+.box-fourth-column {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.t-shirt-blue {
+    width: 95%;
+    height: 100%;
+}
+.box-fifth-column {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.nago {
+    width: 93%;
+    height: 25%;
+}
+.nails {
+    width: 93%;
+    height: 70%;
+}
